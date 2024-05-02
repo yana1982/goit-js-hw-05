@@ -42,3 +42,5 @@ const clients = [
     balance: 2764
   }
 ];
+console.log(getTotalBalanceByGender(clients, "male"));
+console.log(getTotalBalanceByGender(clients, "female"));
